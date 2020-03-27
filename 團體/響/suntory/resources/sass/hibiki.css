@@ -1,0 +1,632 @@
+@charset "UTF-8";
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: "Noto Sans TC", sans-serif;
+  font-weight: 400;
+  background-color: black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+body h1 {
+  font-size: 1.8rem;
+}
+
+@media (max-width: 960px) {
+  body h1 {
+    font-size: 1.6rem;
+  }
+}
+
+@media (max-width: 540px) {
+  body h1 {
+    font-size: 1.5rem;
+  }
+}
+
+body h2 {
+  font-size: 1.4rem;
+}
+
+@media (max-width: 960px) {
+  body h2 {
+    font-size: 1.3rem;
+  }
+}
+
+@media (max-width: 540px) {
+  body h2 {
+    font-size: 1.2rem;
+  }
+}
+
+body p {
+  font-size: 1rem;
+}
+
+@media (max-width: 960px) {
+  body p {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 540px) {
+  body p {
+    font-size: 0.8rem;
+  }
+}
+
+body .navbar-toggler {
+  padding: 0.1rem 0.1rem;
+  font-size: 1rem;
+}
+
+ul,
+p,
+h1,
+h2 {
+  margin: 0;
+}
+
+li {
+  margin: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.nav-link {
+  padding: 0rem;
+  margin: 0 0.5rem;
+}
+
+.navbar-expand-md .navbar-nav .nav-link {
+  padding: 5px 0;
+}
+
+header {
+  background-color: #e5e5e5;
+  -webkit-box-shadow: 0px 5px 15px rgba(65, 65, 65, 0.7);
+          box-shadow: 0px 5px 15px rgba(65, 65, 65, 0.7);
+  z-index: 2;
+}
+
+main h1 {
+  color: #e5e5e5;
+  margin: 15px 0 13px 0;
+  text-shadow: 2px 2px 2px rgba(202, 202, 202, 0.5);
+}
+
+main .container h1 {
+  margin-bottom: 50px;
+}
+
+main #story {
+  margin: 100px 0 0 0;
+}
+
+main #story .container h1 {
+  margin-bottom: 50px;
+}
+
+main #story .row .top {
+  background-image: url("../../public/img/02.hibiki創造理念.jpg");
+  background-size: cover;
+  background-position: center;
+  min-height: 400px;
+  width: 100%;
+  position: relative;
+}
+
+@media (max-width: 769px) {
+  main #story .row .top {
+    min-height: 350px;
+  }
+}
+
+@media (max-width: 541px) {
+  main #story .row .top {
+    min-height: 200px;
+  }
+}
+
+main #story .row .top .content {
+  position: absolute;
+  right: 2%;
+  top: 12%;
+  margin-right: 15px;
+}
+
+main #story .row .top .content h2 {
+  color: #e5e5e5;
+  margin: 0 0 50px 0;
+}
+
+main #story .row .top .content p {
+  max-width: 500px;
+  color: #e5e5e5;
+}
+
+@media (max-width: 541px) {
+  main #story .row .top .content {
+    display: none;
+  }
+}
+
+main #story .row .phone_text {
+  display: none;
+}
+
+main #story .row .phone_text h2 {
+  color: #e5e5e5;
+  margin: 0 0 50px 0;
+  text-align: center;
+}
+
+main #story .row .phone_text p {
+  max-width: 500px;
+  color: #e5e5e5;
+  text-align: center;
+  padding: 0 15px;
+}
+
+@media (max-width: 541px) {
+  main #story .row .phone_text {
+    display: block;
+  }
+}
+
+main #story #movement .container h1 {
+  margin-bottom: 50px;
+}
+
+main #story .bottom {
+  background-image: url("../../public/img/02.hibiki日本文化_反轉.png");
+  background-size: cover;
+  background-position: center;
+  min-height: 400px;
+  width: 100%;
+  position: relative;
+  border-radius: 0 0 0 20px;
+}
+
+@media (max-width: 769px) {
+  main #story .bottom {
+    min-height: 350px;
+  }
+}
+
+@media (max-width: 541px) {
+  main #story .bottom {
+    min-height: 200px;
+    border-radius: 0;
+  }
+}
+
+main #story .bottom .content {
+  position: absolute;
+  left: 5%;
+  top: 15%;
+  margin-left: 15px;
+}
+
+main #story .bottom .content h2 {
+  color: black;
+  margin: 0 0 50px 0;
+  font-weight: 600;
+}
+
+main #story .bottom .content p {
+  max-width: 400px;
+  font-weight: 600;
+  color: black;
+}
+
+@media (max-width: 540px) {
+  main #story .bottom .content {
+    display: none;
+  }
+}
+
+main #story .phone_text {
+  margin: 30px auto;
+  display: none;
+}
+
+main #story .phone_text h2 {
+  color: #e5e5e5;
+  margin: 0 0 50px 0;
+  text-align: center;
+}
+
+main #story .phone_text p {
+  max-width: 500px;
+  color: #e5e5e5;
+  text-align: center;
+  padding: 0 15px;
+}
+
+@media (max-width: 540px) {
+  main #story .phone_text {
+    display: block;
+  }
+}
+
+main #movement {
+  margin: 100px 0 0 0;
+}
+
+@media (max-width: 540px) {
+  main #movement {
+    margin-top: 50px;
+  }
+}
+
+main #movement img {
+  border-radius: 20px;
+}
+
+main #movement p {
+  margin: 13px 0 0 0;
+  padding: 0 15px;
+  color: #e5e5e5;
+}
+
+main #award {
+  margin: 100px 0 0 0;
+  /* TIMELINE ARROWS
+          –––––––––––––––––––––––––––––––––––––––––––––––––– */
+  /* GENERAL MEDIA QUERIES
+          –––––––––––––––––––––––––––––––––––––––––––––––––– */
+}
+
+main #award .timeline {
+  white-space: nowrap;
+  overflow-x: hidden;
+}
+
+main #award .timeline ol {
+  font-size: 0;
+  width: 100vw;
+  padding: 250px 0 150px 0;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
+
+main #award .timeline ol li {
+  position: relative;
+  display: inline-block;
+  list-style-type: none;
+  width: 160px;
+  height: 3px;
+  background: #fff;
+}
+
+main #award .timeline ol li:last-child {
+  width: 280px;
+}
+
+main #award .timeline ol li:not(:first-child) {
+  margin-left: 14px;
+}
+
+main #award .timeline ol li:not(:last-child)::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: calc(100% + 1px);
+  bottom: 0;
+  width: 12px;
+  height: 12px;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  border-radius: 50%;
+  background: #febe26;
+}
+
+main #award .timeline ol li div {
+  position: absolute;
+  left: calc(100% + 7px);
+  width: 240px;
+  padding: 15px;
+  font-size: 0.4rem;
+  white-space: normal;
+  color: black;
+  background: #e5e5e5;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+main #award .timeline ol li div span {
+  margin: 0 0 0 auto;
+  line-height: 35px;
+}
+
+main #award .timeline ol li div img {
+  height: 35px;
+}
+
+main #award .timeline ol li div p {
+  width: 100%;
+}
+
+main #award .timeline ol li div::before {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 0;
+  height: 0;
+  border-style: solid;
+}
+
+main #award .timeline ol li:nth-child(odd) div {
+  top: -16px;
+  -webkit-transform: translateY(-100%);
+          transform: translateY(-100%);
+}
+
+main #award .timeline ol li:nth-child(odd) div::before {
+  top: 100%;
+  border-width: 8px 8px 0 0;
+  border-color: #e5e5e5 transparent transparent transparent;
+}
+
+main #award .timeline ol li:nth-child(even) div {
+  top: calc(100% + 16px);
+}
+
+main #award .timeline ol li:nth-child(even) div::before {
+  top: -8px;
+  border-width: 8px 0 0 8px;
+  border-color: transparent transparent transparent #e5e5e5;
+}
+
+main #award .timeline time {
+  display: block;
+  font-size: 0.6rem;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+main #award .timeline .arrows {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 20px;
+}
+
+main #award .timeline .arrow {
+  background-color: unset;
+  border: 0;
+}
+
+main #award .timeline .arrows .arrow__prev {
+  margin-right: 20px;
+}
+
+main #award .timeline .disabled {
+  opacity: 0.5;
+}
+
+main #award .timeline .arrows img {
+  width: 45px;
+  height: 45px;
+}
+
+@media screen and (max-width: 540px) {
+  main #award .timeline ol,
+  main #award .timeline ol li {
+    width: auto;
+  }
+  main #award .timeline ol {
+    padding: 0;
+    -webkit-transform: none !important;
+            transform: none !important;
+  }
+  main #award .timeline ol li {
+    display: block;
+    height: auto;
+    background: transparent;
+  }
+  main #award .timeline ol li:first-child {
+    margin-top: 25px;
+  }
+  main #award .timeline ol li:not(:first-child) {
+    margin-left: auto;
+  }
+  main #award .timeline ol li div {
+    width: 94%;
+    height: auto !important;
+    margin: 0 auto 25px;
+  }
+  main #award .timeline ol li div {
+    position: static;
+  }
+  main #award .timeline ol li div span {
+    margin: 0 5px;
+  }
+  main #award .timeline ol li div p {
+    width: unset;
+  }
+  main #award .timeline ol li:nth-child(odd) div {
+    -webkit-transform: none;
+            transform: none;
+  }
+  main #award .timeline ol li:nth-child(odd) div::before,
+  main #award .timeline ol li:nth-child(even) div::before {
+    left: 50%;
+    top: 100%;
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
+    border: none;
+    border-left: 1px solid #e5e5e5;
+    height: 25px;
+  }
+  main #award .timeline ol li:last-child,
+  main #award .timeline ol li:nth-last-child(2) div::before,
+  main #award .timeline ol li:not(:last-child)::after,
+  main #award .timeline .arrows {
+    display: none;
+  }
+}
+
+main #series {
+  margin: 200px 0 0 0;
+}
+
+main #series .accordion {
+  background: black;
+  height: 50vh;
+  margin: 20px auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  cursor: pointer;
+  margin-bottom: 100px;
+  border-radius: 10px;
+}
+
+main #series .box {
+  height: 100%;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  overflow: hidden;
+  -webkit-transition: 0.7s;
+  transition: 0.7s;
+  -webkit-box-shadow: 0px 20px 30px rgba(0, 0, 0, 0.5);
+          box-shadow: 0px 20px 30px rgba(0, 0, 0, 0.5);
+  background: black;
+}
+
+main #series .box:hover {
+  -webkit-box-flex: 7;
+      -ms-flex: 7;
+          flex: 7;
+}
+
+main #series .box:hover .text {
+  opacity: 1;
+}
+
+main #series .box .img {
+  height: 100%;
+  padding: 30px 100px 0;
+}
+
+main #series .box .text {
+  opacity: 0;
+  padding: 40px 10px;
+  -webkit-transition: 0.7s;
+  transition: 0.7s;
+  color: #e5e5e5;
+}
+
+main #series .box .text h2 {
+  margin-bottom: 20px;
+}
+
+@media (max-width: 1025px) {
+  main #series .accordion .box .img {
+    height: 450px;
+  }
+}
+
+@media (max-width: 769px) {
+  main #series .accordion {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+    height: 200vh;
+  }
+  main #series .accordion .box {
+    -webkit-box-shadow: none;
+            box-shadow: none;
+  }
+  main #series .accordion .box:hover {
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+    height: unset;
+  }
+  main #series .accordion .box .img {
+    padding: 30px 30px 0;
+  }
+}
+
+@media (max-width: 541px) {
+  main #series .nav-link {
+    padding: 0rem;
+  }
+  main #series #nav {
+    padding: 0 30px;
+  }
+  main #series .navbar-brand {
+    margin: 0;
+  }
+  main #series .accordion {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+    height: 200vh;
+  }
+  main #series .accordion .box {
+    -webkit-box-shadow: none;
+            box-shadow: none;
+  }
+  main #series .accordion .box:hover {
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+    height: unset;
+  }
+  main #series .accordion .box .img {
+    padding: 30px 30px 0;
+    height: 200px;
+  }
+  main #series .accordion .box span {
+    display: none;
+  }
+}
+
+@media (max-width: 321px) {
+  main #series .box .text {
+    padding: 20px 0;
+  }
+  main #series span {
+    display: none;
+  }
+  main #series p {
+    font-size: 0.3rem;
+  }
+}
+/*# sourceMappingURL=hibiki.css.map */

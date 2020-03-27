@@ -1,0 +1,664 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>響 HIBIKI</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+        integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans+TC:400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../sass/hibiki.css">
+    <link rel="stylesheet" href="../sass/hover.css">
+</head>
+<STyle>
+a.add-to-cart {
+    width: 120px;
+    height: 30px;
+    background: #ffab00;
+    line-height: 30px;
+    letter-spacing: 2px;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    border-radius: 24px;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    box-shadow: 0 3px 6px rgba(255, 171, 0, 0.16), 0 3px 6px rgba(255, 171, 0, 0.23);
+}
+
+a.add-to-cart:hover{
+     background-color:red;
+
+}
+a.add-to-cart:active{
+    background-color: salmon;
+}
+
+
+a.cart {
+	width: 72px;
+	height: 72px;
+	border-radius: 36px;
+	text-align: center;
+	color: #616161;
+	text-decoration: none;
+    position: fixed;
+    right: 0;
+    top: 40%;
+    z-index: 9;
+	display: block;
+	background: #535558 url(http://images.vfl.ru/ii/1484930184/14435803/15757225.png
+) center no-repeat;
+	background-size: 36px;
+	box-shadow: 0 3px 6px rgba(97, 97, 97 0.16), 0 3px 6px rgba(97, 97, 97 0.23);
+}
+
+a.cart > span {
+	width: 24px;
+	height: 24px;
+	font-size: 16px;
+	color: #fff;
+	line-height: 24px;
+	position: absolute;
+	border-radius: 12px;
+	display: block;
+	transform: scale(0);
+	margin: auto;
+	background: #ffab00;
+	box-shadow: 0 3px 6px rgba(255, 171, 0, 0.16) ;
+}
+
+a.cart > span.counter {
+	left: 48px;
+	bottom: 48px;
+	transition: .2s linear;
+	transform: scale(1);
+}
+    
+</STyle>
+
+<body>
+    <a href="#" class="cart"><span></span></a>
+    
+    <header class="row sticky-top" style="margin: 0;">
+
+        <div class="container">
+            <nav id="nav" class=" navbar navbar-expand-md navbar-light " style="padding: 0;">
+                <a class="navbar-brand" href="#">
+                    <img src="../../public/img/00.響_logo01.png" alt="響 HIBIKI" style="height: 68px;">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto py-4 py-md-0">
+                        <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4 ">
+                            <a class="nav-link hvr-underline-from-center text-body" href=#story>響的故事</a>
+                        </li>
+                        <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4 ">
+                            <a class="nav-link hvr-underline-from-center text-body" href="#movement">響的樂章</a>
+                        </li>
+
+                        <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4 ">
+                            <a class="nav-link hvr-underline-from-center text-body" href="#award">國際肯定</a>
+                        </li>
+                        <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4 ">
+                            <a class="nav-link hvr-underline-from-center text-body" href="#series">響系列</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+
+        </div>
+    </header>
+
+    <main>
+        <div id="carouselExampleFade" class="bannerbox carousel slide carousel-fade" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="../../public/img/02.hibiki-17.jpg" class="d-block w-100 " alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="../../public/img/02.hibiki-30.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="../../public/img/02.hibiki.jpg" class="d-block w-100" alt="...">
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleFade" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+
+        <section id="story">
+            <div class="container">
+                <h1>響的故事&thinsp;|&thinsp;STORY</h1>
+            </div>
+            <div class="row w-100 m-0">
+                <div  class="col-xl-9 col-lg-10 col-md-12  p-0 d-flex justify-content-start flex-wrap">
+                    <div class="top ">
+                        <div class="content ">
+                            <h2>響hikibi的創造理念</h2>
+                            <p>
+                                “創造一種深受日本人民歡迎的威士忌。”<br>
+                                三得利（Suntory）創始人鳥井信治郎（Shinjiro Torii）<br>
+                                開拓了製造日本威士忌的歷史。<br>
+                                <br>
+                                1923年，<br>
+                                信治郎著手在京都郊區的山崎建造日本第一家威士忌酒廠。<br>
+                                經過反複試驗、學習正宗的蘇格蘭技術的同時，<br>
+                                選擇與蘇格蘭完全不同的日本地形和氣候來構想，<br>
+                                最終創造出適合日本人的細膩口味，<br>
+                                微妙精緻而又復雜的威士忌。
+                            </p>
+                        </div>
+                    </div>
+                    <div class="phone_text ">
+                        <h2>響hikibi的創造理念</h2>
+                        <p>
+                            “創造一種深受日本人民歡迎的威士忌。”<br>
+                            三得利（Suntory）創始人鳥井信治郎（Shinjiro Torii）<br>
+                            開拓了製造日本威士忌的歷史。<br>
+                            <br>
+                            1923年，<br>
+                            信治郎著手在京都郊區的山崎建造日本第一家威士忌酒廠。<br>
+                            經過反複試驗、學習正宗的蘇格蘭技術的同時，<br>
+                            選擇與蘇格蘭完全不同的日本地形和氣候來構想，<br>
+                            最終創造出適合日本人的細膩口味，<br>
+                            微妙精緻而又復雜的威士忌。
+                        </p>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-2 col-md-0 "></div>
+            </div>
+
+
+            <div class="row w-100 m-0">
+                
+                <div class="col-xl-3 col-lg-2 col-md-0 "></div>
+                <div class="col-xl-9 col-lg-10 col-md-12  p-0 d-flex flex-wrap">
+                    <div class="bottom">
+                        <div class="content">
+                            <h2>響Hikibi與日本文化的共鳴</h2>
+                            <p>
+                                蘊藏著日本自然和精神文化的日比木，<br>
+                                向自古以來流傳下來的技術和思想致敬，<br>
+                                並希望兩者都能為下一代創造價值。<br>
+                                <br>
+                                致力於文化發展和精湛技藝的工匠。<br>
+                                體現人的情感和好運的眾多設計已成為<br>
+                                日本藝術的基石。<br>
+                                “Hibiki”在日本文化中引起共鳴，<br>
+                                創造了獨特的“美麗”。</p>
+                        </div>
+                    </div>
+                    <div class="phone_text">
+                        <h2>響Hikibi與日本文化的共鳴</h2>
+                        <p>
+                            蘊藏著日本自然和精神文化的日比木，<br>
+                            向自古以來流傳下來的技術和思想致敬，<br>
+                            並希望兩者都能為下一代創造價值。<br>
+                            <br>
+                            致力於文化發展和精湛技藝的工匠。<br>
+                            體現人的情感和好運的眾多設計已成為<br>
+                            日本藝術的基石。<br>
+                            “Hibiki”在日本文化中引起共鳴，<br>
+                            創造了獨特的“美麗”。</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+
+
+
+        <section id="movement">
+            <div class="container">
+                <h1 class="text-center">響的樂章</h1>
+                <img src="../../public/img/00.whiskey.png" alt="whiskey" class="w-100 mb-2">
+                <div class="row  d-flex justify-content-center">
+                    <p class="text-center">
+                        自然、時間與釀酒人心意的共鳴，<br>
+                        威士忌是集時間、自然、釀酒人心意的醇美，<br>
+                        其底蘊是日本文化中追究細微之處的執著，<br>
+                        憑藉來自山崎、白州、知多蒸餾廠中多采的原酒，<br>
+                        調酒師們以敏銳的五感，點止闔化為滴滴美釀積蘊如藝術品般的「響」。<br>
+                        <br>
+                        威士忌經過時間荏苒的醞釀，最後封存在刻劃二十四個節氣的瓶中，<br>
+                        述說著來日本的自然、風土、文化、五感調和下，<br>
+                        讓人驚豔、感動、沉吟低迴的故事。<br>
+                        <br>
+                        「響」不只是威士忌，是更多與人、與自然、與文化的共鳴。
+                    </p>
+                </div>
+            </div>
+        </section>
+
+
+        <section id="award">
+            <div class="container">
+                <h1>國際的肯定</h1>
+            </div>
+            <div class="timeline">
+                <ol>
+                    <li>
+                        <div>
+                            <time>2016</time>
+                            <span>ISC</span>
+                            <img src="https://cdn4.iconfinder.com/data/icons/contact-us-19/48/35-512.png">
+                            <p>
+                                響 21年 「GOLD」金牌獎<br>
+                                響 17年 「GOLD」金牌獎
+                            </p>
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <time>2005</time>
+                            <span>ISC</span>
+                            <img src="https://cdn4.iconfinder.com/data/icons/contact-us-19/48/35-512.png">
+                            <p>
+                                響 21年 「Trophy」首獎<br>
+                                響 12年 「Double Gold」最優秀金牌獎
+                            </p>
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <time>2005</time>
+                            <span>ISC</span>
+                            <img src="https://cdn4.iconfinder.com/data/icons/contact-us-19/48/35-512.png">
+                            <p>
+                                響 21年 「GOLD」金牌獎<br>
+                                響 17年 「GOLD」金牌獎
+                            </p>
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <time>2005</time>
+                            <span>ISC</span>
+                            <img src="https://cdn4.iconfinder.com/data/icons/contact-us-19/48/35-512.png">
+                            <p>
+                                響 21年 「GOLD」金牌獎<br>
+                                響 17年 「GOLD」金牌獎
+                            </p>
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <time>2005</time>
+                            <span>ISC</span>
+                            <img src="https://cdn4.iconfinder.com/data/icons/contact-us-19/48/35-512.png">
+                            <p>
+                                響 21年 「GOLD」金牌獎<br>
+                                響 17年 「GOLD」金牌獎
+                            </p>
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <time>2005</time>
+                            <span>ISC</span>
+                            <img src="https://cdn4.iconfinder.com/data/icons/contact-us-19/48/35-512.png">
+                            <p>
+                                響 21年 「GOLD」金牌獎<br>
+                                響 17年 「GOLD」金牌獎
+                            </p>
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <time>2009</time>
+                            <span>ISC</span>
+                            <img src="https://cdn4.iconfinder.com/data/icons/contact-us-19/48/35-512.png">
+                            <p>
+                                響 21年 「GOLD」金牌獎<br>
+                                響 17年 「GOLD」金牌獎
+                            </p>
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <time>2005</time>
+                            <span>ISC</span>
+                            <img src="https://cdn4.iconfinder.com/data/icons/contact-us-19/48/35-512.png">
+                            <p>
+                                響 21年 「GOLD」金牌獎<br>
+                                響 17年 「GOLD」金牌獎
+                            </p>
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <time>2005</time>
+                            <span>ISC</span>
+                            <img src="https://cdn4.iconfinder.com/data/icons/contact-us-19/48/35-512.png">
+                            <p>
+                                響 21年 「GOLD」金牌獎<br>
+                                響 17年 「GOLD」金牌獎
+                            </p>
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <time>2005</time>
+                            <span>ISC</span>
+                            <img src="https://cdn4.iconfinder.com/data/icons/contact-us-19/48/35-512.png">
+                            <p>
+                                響 21年 「GOLD」金牌獎<br>
+                                響 17年 「GOLD」金牌獎
+                            </p>
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <time>2005</time>
+                            <span>ISC</span>
+                            <img src="https://cdn4.iconfinder.com/data/icons/contact-us-19/48/35-512.png">
+                            響30年「Trophy」首獎
+                            <br>
+                            響21年「GOLD」金牌獎
+                            <br>
+                            響21年入選「Best of the best」世界10大威士忌
+                        </div>
+                    </li>
+                    <li></li>
+                </ol>
+
+                <div class="arrows">
+                    <button class="arrow arrow__prev disabled" disabled>
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    </button>
+                    <button class="arrow arrow__next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    </button>
+                </div>
+            </div>
+        </section>
+
+
+        <section id="series">
+            <div class="container">
+                <h1>響系列</h1>
+                <div class="accordion">
+
+                    <!-- BOX 1 -->
+                    <div class="box d-flex">
+                        <div class="img">
+                            <img src="../../public/img/02.響瓶裝.png" height=100%>
+                        </div>
+
+
+                        <div class="text">
+                            <h2>響 JAPANESE HARMONY</h2>
+                            <p><span>
+                                響 JAPANESE HARMONY
+                                是三得利威士忌裡，
+                                最具有日本的自然風情，
+                                與日本人的細膩感性和日本的手工藝引起共鳴。
+                                在四個季節中協調日本人精神文化的獨特價值。
+                            </span></p>
+                            <br>
+                            <p>色&thinsp;|&thinsp;琥珀色。</p>
+                            <p>香&thinsp;|&thinsp;玫瑰，荔枝，微妙的迷迭香，陳年桶裝香氣。</p>
+                            <p>味&thinsp;|&thinsp;宜人的甜度與酸度。</p>
+                            <p>餘&thinsp;|&thinsp;柔軟，甜美，酸甜的餘味。</p>
+                            <br>
+                            <a href="#" class="add-to-cart">立即購買</a>
+                        </div>
+                    </div>
+
+                    <!-- BOX 1 -->
+                    <div class="box d-flex">
+                        <div class="img">
+                            <img src="../../public/img/02.響blend瓶裝.png" height=100%>
+                        </div>
+
+
+                        <div class="text">
+                            <h2>響 BLENDER’S CHOICE</h2>
+                            <p><span>
+                                我們精心選擇了各種酒桶，
+                                這些酒桶已在各種酒桶中陳釀，
+                                並與工藝精巧地融合在一起。深沉而甜美的味道，
+                                華麗而柔和的香氣。
+                                您可以通過在酒桶後加入葡萄酒來享受寶石的和諧感。
+                            </span></p>
+                            <br>
+                            <p>色&thinsp;|&thinsp;琥珀色。</p>
+                            <p>香&thinsp;|&thinsp;野莓，白桃，焦糖布丁。</p>
+                            <p>味&thinsp;|&thinsp;宜人的甜度與酸度。</p>
+                            <p>餘&thinsp;|&thinsp;柔軟，甜美，酸甜的餘味。</p>
+                            <br>
+                            <a href="#" class="add-to-cart">立即購買</a>
+                        </div>
+                    </div>
+
+                    <!-- BOX 1 -->
+                    <div class="box d-flex">
+                        <div class="img">
+                            <img src="../../public/img/02.響21瓶裝.png" height=100%>
+                        </div>
+
+
+                        <div class="text">
+                            <h2>響21年</h2>
+                            <p><span>
+                                響21年所使用的麥芽原料經過仔細檢查和混合，
+                                進行21年以上的超長期陳化。
+                                從超過21年的成熟原料中精心挑選混合的威士忌。
+                                您才能享受原酒的豪華和諧。
+                           </span> </p>
+                            <br>
+                            <p>色&thinsp;|&thinsp;深琥珀色。</p>
+                            <p>香&thinsp;|&thinsp;葡萄乾，杏仁，草莓醬，香草。</p>
+                            <p>味&thinsp;|&thinsp;餅乾，太妃糖。</p>
+                            <p>餘&thinsp;|&thinsp;成熟的水果香氣，令人愉悅的悠長餘韻。</p>
+                            <br>
+                            <a href="#" class="add-to-cart">立即購買</a>
+                        </div>
+                    </div>
+
+                    <!-- BOX 1 -->
+                    <div class="box d-flex">
+                        <div class="img">
+                            <img src="../../public/img/02.響30瓶裝.png" height=100%>
+                        </div>
+
+
+                        <div class="text">
+                            <h2>響30年</h2>
+                            <p><span>
+                                響30年一年只能生產幾千瓶。
+                                麥芽酒是從三得利（Suntory）珍藏的超長桶中精心挑選的，
+                                其最低年齡為30歲。
+                                由於數量少，所有操作都是手動完成的。三得利（Suntory）混合威士忌，
+                                已被世界各地的威士忌愛好者高度評價為豪華珠寶般的清酒。
+                            </span></p>
+                            <br>
+                            <p>色&thinsp;|&thinsp;深琥珀色。</p>
+                            <p>香&thinsp;|&thinsp;芒果，杏，草莓醬。</p>
+                            <p>味&thinsp;|&thinsp;濃厚甜味。</p>
+                            <p>餘&thinsp;|&thinsp;成熟的水果香氣，韻味悠長而持久。</p>
+                            <br>
+                            <a href="#" class="add-to-cart">立即購買</a>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+    </main>
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
+        integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
+        integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+        crossorigin="anonymous"></script>
+    <script>
+        (function () {
+
+            // VARIABLES
+            const timeline = document.querySelector(".timeline ol"),
+                elH = document.querySelectorAll(".timeline li > div"),
+                arrows = document.querySelectorAll(".timeline .arrows .arrow"),
+                arrowPrev = document.querySelector(".timeline .arrows .arrow__prev"),
+                arrowNext = document.querySelector(".timeline .arrows .arrow__next"),
+                firstItem = document.querySelector(".timeline li:first-child"),
+                lastItem = document.querySelector(".timeline li:last-child"),
+                xScrolling = 700,
+                disabledClass = "disabled";
+
+            // START
+            window.addEventListener("load", init);
+
+            function init() {
+                setEqualHeights(elH);
+                animateTl(xScrolling, arrows, timeline);
+                setSwipeFn(timeline, arrowPrev, arrowNext);
+                setKeyboardFn(arrowPrev, arrowNext);
+            }
+
+            // SET EQUAL HEIGHTS
+            function setEqualHeights(el) {
+                let counter = 0;
+                for (let i = 0; i < el.length; i++) {
+                    const singleHeight = el[i].offsetHeight;
+
+                    if (counter < singleHeight) {
+                        counter = singleHeight;
+                    }
+                }
+
+                for (let i = 0; i < el.length; i++) {
+                    el[i].style.height = `${counter}px`;
+                }
+            }
+
+            // CHECK IF AN ELEMENT IS IN VIEWPORT
+            // http://stackoverflow.com/questions/123999/how-to-tell-if-a-dom-element-is-visible-in-the-current-viewport
+            function isElementInViewport(el) {
+                const rect = el.getBoundingClientRect();
+                return (
+                    rect.top >= 0 &&
+                    rect.left >= 0 &&
+                    rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
+                    rect.right <= (window.innerWidth || document.documentElement.clientWidth)
+                );
+            }
+
+            // SET STATE OF PREV/NEXT ARROWS
+            function setBtnState(el, flag = true) {
+                if (flag) {
+                    el.classList.add(disabledClass);
+                } else {
+                    if (el.classList.contains(disabledClass)) {
+                        el.classList.remove(disabledClass);
+                    }
+                    el.disabled = false;
+                }
+            }
+
+            // ANIMATE TIMELINE
+            function animateTl(scrolling, el, tl) {
+                let counter = 0;
+                for (let i = 0; i < el.length; i++) {
+                    el[i].addEventListener("click", function () {
+                        if (!arrowPrev.disabled) {
+                            arrowPrev.disabled = true;
+                        }
+                        if (!arrowNext.disabled) {
+                            arrowNext.disabled = true;
+                        }
+                        const sign = (this.classList.contains("arrow__prev")) ? "" : "-";
+                        if (counter === 0) {
+                            tl.style.transform = `translateX(-${scrolling}px)`;
+                        } else {
+                            const tlStyle = getComputedStyle(tl);
+                            // add more browser prefixes if needed here
+                            const tlTransform = tlStyle.getPropertyValue("-webkit-transform") || tlStyle.getPropertyValue("transform");
+                            const values = parseInt(tlTransform.split(",")[4]) + parseInt(`${sign}${scrolling}`);
+                            tl.style.transform = `translateX(${values}px)`;
+                        }
+
+                        setTimeout(() => {
+                            isElementInViewport(firstItem) ? setBtnState(arrowPrev) : setBtnState(arrowPrev, false);
+                            isElementInViewport(lastItem) ? setBtnState(arrowNext) : setBtnState(arrowNext, false);
+                        }, 1100);
+
+                        counter++;
+                    });
+                }
+            }
+
+            // ADD SWIPE SUPPORT FOR TOUCH DEVICES
+            function setSwipeFn(tl, prev, next) {
+                const hammer = new Hammer(tl);
+                hammer.on("swipeleft", () => next.click());
+                hammer.on("swiperight", () => prev.click());
+            }
+
+            // ADD BASIC KEYBOARD FUNCTIONALITY
+            function setKeyboardFn(prev, next) {
+                document.addEventListener("keydown", (e) => {
+                    if ((e.which === 37) || (e.which === 39)) {
+                        const timelineOfTop = timeline.offsetTop;
+                        const y = window.pageYOffset;
+                        if (timelineOfTop !== y) {
+                            window.scrollTo(0, timelineOfTop);
+                        }
+                        if (e.which === 37) {
+                            prev.click();
+                        } else if (e.which === 39) {
+                            next.click();
+                        }
+                    }
+                });
+            }
+
+        })();
+    </script>
+    <script>
+        $(document).ready(function () {
+            var count = 0;
+            $("a.add-to-cart").click(function (event) {
+                count++;
+                $("a.add-to-cart").addClass("size");
+                setTimeout(function () {
+                    $("a.add-to-cart").addClass("hover");
+                }, 200);
+                setTimeout(function () {
+                    $("a.cart > span").addClass("counter");
+                    $("a.cart > span.counter").text(count);
+                }, 400);
+                setTimeout(function () {
+                    $("a.add-to-cart").removeClass("hover");
+                    $("a.add-to-cart").removeClass("size");
+                }, 600);
+                event.preventDefault();
+            });
+        });
+    
+    </script>
+</body>
+
+</html>

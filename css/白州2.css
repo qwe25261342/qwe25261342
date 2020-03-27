@@ -1,0 +1,508 @@
+@charset "UTF-8";
+body {
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.padbtm-100 {
+  padding-bottom: 100px;
+}
+
+.sticky-top {
+  background-color: rgba(255, 255, 255, 0.7);
+}
+
+.flex_1 {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.h5 {
+  font-size: 1.5rem;
+}
+
+p,
+h1 {
+  font-family: "Noto Sans TC";
+}
+
+.row .bannerbox {
+  margin-bottom: 50px;
+}
+
+.row .hakushu_title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.row .hakushu_title h1 {
+  margin-bottom: 30px;
+}
+
+.row .hakushu_text {
+  text-align: center;
+}
+
+.row .hakushu_text p {
+  margin-bottom: 50px;
+}
+
+.row .story_box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  width: 100%;
+}
+
+.row .story_box .story_title {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-right: 5%;
+}
+
+.row .story_box .story_title h1 {
+  text-align: center;
+  margin-bottom: 40px;
+  position: relative;
+}
+
+.row .story_box .story_title h1 span {
+  position: absolute;
+  top: -83px;
+  width: 2px;
+  height: 100%;
+}
+
+.row .story_box p {
+  text-align: center;
+}
+
+.row .story_box .img1 {
+  background-size: cover;
+  background-position: center;
+  min-height: 420px;
+  width: 55%;
+  background-image: url(../img/bg_top_01.jpg);
+}
+
+.row .manner_box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.row .manner_box .story_title {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-left: 5%;
+}
+
+.row .manner_box .story_title h1 {
+  text-align: center;
+  margin-bottom: 40px;
+  position: relative;
+}
+
+.row .manner_box .story_title h1 span {
+  position: absolute;
+  top: -130px;
+  width: 2px;
+  height: 100%;
+}
+
+.row .manner_box .story_title p {
+  text-align: center;
+}
+
+.row .manner_box .img2 {
+  background-size: cover;
+  min-height: 400px;
+  width: 55%;
+  background-image: url(../img/河流.gif);
+}
+
+.row .distillery_box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  margin-bottom: 100px;
+}
+
+.row .distillery_box .story_title {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-right: 5%;
+}
+
+.row .distillery_box .story_title h1 {
+  text-align: center;
+  margin-bottom: 40px;
+  position: relative;
+}
+
+.row .distillery_box .story_title h1 span {
+  position: absolute;
+  top: -118px;
+  width: 2px;
+  height: 100%;
+}
+
+.row .distillery_box p {
+  text-align: center;
+}
+
+.row .distillery_box .img3 {
+  background-size: cover;
+  background-position: center;
+  min-height: 400px;
+  width: 55%;
+  background-image: url(../img/img_04.jpg);
+}
+
+.row .Award .Award_title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  padding-bottom: 50px;
+}
+
+.row .Award h1 {
+  position: relative;
+}
+
+.row .Award h1 span {
+  position: absolute;
+  top: -118px;
+  width: 2px;
+  height: 100%;
+}
+
+.row .change_view {
+  padding-bottom: 100px;
+}
+
+.row .change_view .change_img {
+  background-image: url(../img/轉場.png);
+  height: 40vh;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center center;
+}
+
+.row .product_title {
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+.row .product_title h1 {
+  position: relative;
+}
+
+.row .product_title h1 span {
+  position: absolute;
+  top: -118px;
+  width: 2px;
+  height: 100%;
+}
+
+.row .backg {
+  background-image: url(../img/樹林.jpg);
+  width: 100%;
+  background-attachment: fixed;
+}
+
+.row .backg .backdrop {
+  background-color: rgba(255, 255, 255, 0.7);
+  padding: 80px 5%;
+}
+
+.row .backg .backdrop .prod {
+  margin-bottom: 75px;
+}
+
+.row .backg .backdrop .prod .prod_img {
+  height: 100%;
+  width: 100%\9;
+}
+
+.row .backg .backdrop .prod_name {
+  text-align: center;
+}
+
+.row .backg .backdrop .prod1_title {
+  padding: 0;
+  margin: 0;
+  margin-bottom: 25px;
+}
+
+.row .backg .backdrop .prod1_title h1 {
+  position: relative;
+}
+
+.row .backg .backdrop .prod1_title h1 span {
+  position: absolute;
+  top: -300px;
+  width: 2px;
+  height: 100%;
+}
+
+.row .backg .backdrop .prod1_min_title {
+  margin-bottom: 25px;
+}
+
+.row .backg .backdrop .prod1_text p {
+  padding-bottom: 25px;
+}
+
+@media (max-width: 770px) {
+  .row .backg .backdrop .prod1_text p {
+    padding: 0;
+  }
+}
+
+.row .backg .backdrop .prod1_text a.add-to-cart {
+  width: 216px;
+  height: 48px;
+  background: #ffab00;
+  font-size: 18px;
+  line-height: 48px;
+  letter-spacing: 2px;
+  color: white;
+  text-transform: uppercase;
+  border-radius: 24px;
+  text-decoration: none;
+  text-align: center;
+  display: block;
+  -webkit-box-shadow: 0 3px 6px rgba(255, 171, 0, 0.16), 0 3px 6px rgba(255, 171, 0, 0.23);
+          box-shadow: 0 3px 6px rgba(255, 171, 0, 0.16), 0 3px 6px rgba(255, 171, 0, 0.23);
+}
+
+@media (max-width: 770px) {
+  .row .backg .backdrop .prod1_text a.add-to-cart {
+    width: 180px;
+    height: 40px;
+    font-size: 16px;
+    line-height: 40px;
+  }
+}
+
+@media (max-width: 540px) {
+  .row .backg .backdrop .prod1_text a.add-to-cart {
+    width: 150px;
+    height: 30px;
+    font-size: 14px;
+    line-height: 30px;
+  }
+}
+
+.row .backg .backdrop .prod1_text a.add-to-cart:hover {
+  background-color: red;
+}
+
+.row .backg .backdrop .prod1_text a.add-to-cart:active {
+  background-color: salmon;
+}
+
+@media (max-width: 770px) {
+  .row {
+    padding: 0;
+    margin: 0;
+  }
+  h1 {
+    font-size: 1.7rem;
+  }
+  h2 {
+    font-size: 1.2rem;
+  }
+  h5 {
+    font-size: 1.2rem;
+  }
+  p {
+    font-size: 0.7rem;
+  }
+  .row .backdrop .prod {
+    margin-bottom: 10px;
+  }
+  .prod_img {
+    width: 70px;
+  }
+  .prod1_img {
+    height: 400px;
+  }
+  .padbtm-100 {
+    padding-bottom: 50px;
+  }
+  .row .story_box .img1 {
+    min-height: 300px;
+  }
+  .row .manner_box .img2 {
+    min-height: 300px;
+  }
+  .row .distillery_box .img3 {
+    min-height: 300px;
+  }
+}
+
+@media (max-width: 540px) {
+  .row {
+    padding: 0;
+    margin: 0;
+  }
+  h1 {
+    font-size: 1.5rem;
+  }
+  h2 {
+    font-size: 1rem;
+  }
+  h5 {
+    font-size: 1.2rem;
+  }
+  p {
+    font-size: 0.5rem;
+  }
+  .padbtm-100 {
+    padding-bottom: 30px;
+  }
+  .row .story_box .img1 {
+    width: 100%;
+  }
+  .row .manner_box .img2 {
+    width: 100%;
+  }
+  .row .distillery_box .img3 {
+    width: 100%;
+  }
+  flex-wrap .row .backdrop .prod {
+    margin-bottom: 10px;
+  }
+  .prod_img {
+    width: 50px;
+  }
+  .prod1_img {
+    height: 300px;
+  }
+  .row .story_box {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .row .story_box .story_text {
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .row .story_box .story_text h1 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  .row .story_box .story_text p {
+    margin-bottom: 50px;
+  }
+  .row .story_box .img1 {
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+    min-height: 200px;
+  }
+  .row .manner_box {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .row .manner_box .story_text {
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .row .manner_box .story_text h1 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  .row .manner_box .story_text p {
+    margin-bottom: 50px;
+  }
+  .row .manner_box .img2 {
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+    min-height: 200px;
+  }
+  .row .distillery_box {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .row .distillery_box .story_text {
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .row .distillery_box .story_text h1 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  .row .distillery_box .story_text p {
+    margin-bottom: 50px;
+  }
+  .row .distillery_box .img3 {
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+    min-height: 200px;
+  }
+}
+/*# sourceMappingURL=白州2.css.map */

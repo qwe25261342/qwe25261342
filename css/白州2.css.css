@@ -1,0 +1,214 @@
+@charset "UTF-8";
+body {
+  height: 800vh;
+}
+
+.padbtm-100 {
+  padding-bottom: 100px;
+}
+
+.flex_1 {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.row .bannerbox {
+  margin-bottom: 50px;
+}
+
+.row .hakushu_title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.row .hakushu_title h1 {
+  font-family: "Noto Sans TC";
+  margin-bottom: 30px;
+}
+
+.row .hakushu_text {
+  text-align: center;
+}
+
+.row .hakushu_text p {
+  font-family: "Noto Sans TC";
+  margin-bottom: 50px;
+}
+
+.row .story_box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.row .story_box .story_title {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-right: 5%;
+}
+
+.row .story_box .story_title h1 {
+  text-align: center;
+  font-family: "Noto Sans TC";
+  margin-bottom: 40px;
+}
+
+.row .story_box p {
+  text-align: center;
+  font-family: "Noto Sans TC";
+}
+
+.row .story_box .img {
+  background-size: cover;
+  background-position: center;
+  min-height: 515px;
+  max-width: 55%;
+  width: 55%;
+  background-image: url(./img/bg_top_01.jpg);
+}
+
+.row .manner_box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.row .manner_box .story_title {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-left: 5%;
+}
+
+.row .manner_box .story_title h1 {
+  text-align: center;
+  font-family: "Noto Sans TC";
+  margin-bottom: 40px;
+}
+
+.row .manner_box .story_title p {
+  text-align: center;
+  font-family: "Noto Sans TC";
+}
+
+.row .manner_box .img2 {
+  background-size: cover;
+  min-height: 515px;
+  max-width: 55%;
+  width: 55%;
+  background-image: url(./img/河流.gif);
+}
+
+.row .distillery_box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  margin-bottom: 100px;
+}
+
+.row .distillery_box .story_title {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-right: 5%;
+}
+
+.row .distillery_box .story_title h1 {
+  text-align: center;
+  font-family: "Noto Sans TC";
+  margin-bottom: 40px;
+}
+
+.row .distillery_box p {
+  text-align: center;
+  font-family: "Noto Sans TC";
+}
+
+.row .distillery_box .img3 {
+  background-size: cover;
+  background-position: center;
+  min-height: 515px;
+  max-width: 55%;
+  width: 55%;
+  background-image: url(./img/img_04.jpg);
+}
+
+.row .Award .Award_title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  padding-bottom: 50px;
+}
+
+.row .Award h1 {
+  font-family: "Noto Sans TC";
+}
+
+.row .change_view {
+  padding-bottom: 100px;
+}
+
+.row .change_view .change_img {
+  background-image: url(./img/轉場.png);
+  height: 40vh;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center center;
+}
+
+.row .product_title {
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+.row .backdrop {
+  background-color: white;
+  padding: 80px 200px;
+}
+
+.row .backdrop .prod {
+  margin-bottom: 75px;
+}
+
+.row .backdrop .prod_name {
+  text-align: center;
+}
+
+.row .backdrop .prod1_title {
+  padding: 0;
+  margin: 0;
+  margin-bottom: 25px;
+}
+
+.row .backdrop .prod1_min_title {
+  margin-bottom: 25px;
+}
+
+.row .backdrop .prod1_text p {
+  padding-bottom: 25px;
+}
+/*# sourceMappingURL=白州2.css.map */
